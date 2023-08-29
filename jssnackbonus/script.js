@@ -16,6 +16,8 @@ for (let i = 1; i <= 6; i++) {
     if (numDigitato%2 != 0) {
         console.log(numDigitato + ' è dispari');
         numDispari.push(numDigitato);    
+    } else {
+        console.log(numDigitato + ' è pari');
     }
     
 }
