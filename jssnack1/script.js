@@ -10,9 +10,9 @@ let number2 = prompt ('Inserisci il secondo numero');
 let resultMessage;
 
 if (Number(number1) > Number(number2)) {
-    resultMessage = (number1 + ' è maggiore di ' + number2);
+    resultMessage = (number1 + ' è il maggiore');
 } else if (Number(number1) < Number(number2)) {
-    resultMessage = (number2 + ' è maggiore di ' + number1);
+    resultMessage = (number2 + ' è il maggiore');
 } else {
     resultMessage = ('I numeri sono uguali');
 }
