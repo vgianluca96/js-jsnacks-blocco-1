@@ -42,9 +42,9 @@ while (i <= 2) {
     }
 }
 
-if (numbers[1]>numbers[2]) {
+if (numbers[1] > numbers[2]) {
     console.log(numbers[1]);
-} else if (numbers[1]>numbers[2]) {
+} else if (numbers[1] < numbers[2]) {
     console.log(numbers[2]);
 } else {
     console.log('sono uguali');
