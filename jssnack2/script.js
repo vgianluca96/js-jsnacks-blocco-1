@@ -27,14 +27,12 @@ Bonus:
 rifarlo usando ciclo while
 */
 
-
 let i = 0;
 let words = [];
 
-
 while (i <= 1) {
 
-    words[i] = prompt ('Digita una parola');
+    words[i] = prompt ('Digita una parola numero ' + (Number(i)+ Number(1)));
     i++
 
 }
