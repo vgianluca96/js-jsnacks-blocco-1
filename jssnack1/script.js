@@ -33,7 +33,7 @@ let i = 1;
 
 while (i <= 2) {
 
-    numbers[i] = prompt('Inserisci un numero');
+    numbers[i] = Number(prompt('Inserisci un numero'));
 
     if (isNaN(numbers[i])) {
         console.log('Devi digitare un numero');
