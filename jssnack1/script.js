@@ -29,9 +29,9 @@ rifarlo usando ciclo while
 */
 
 let numbers = [];
-let i = 1;
+let i = 0;
 
-while (i <= 2) {
+while (i <= 1) {
 
     numbers[i] = Number(prompt('Inserisci un numero'));
 
@@ -42,10 +42,10 @@ while (i <= 2) {
     }
 }
 
-if (numbers[1] > numbers[2]) {
+if (numbers[0] > numbers[1]) {
+    console.log(numbers[0]);
+} else if (numbers[0] < numbers[1]) {
     console.log(numbers[1]);
-} else if (numbers[1] < numbers[2]) {
-    console.log(numbers[2]);
 } else {
     console.log('sono uguali');
 }
